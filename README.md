@@ -11,3 +11,6 @@ BCH:  1GMA1P8EjmRXWDmvy9xSJCw6ewx9U4KE99
 LTC:  LgzgpHHzCRbMkaoxYxc8iXH4PiU9GVjFL7
 
 DOGE:  DBwF3Y5hRY4qfeGXS3dwpHidKhFcP5ZB6x
+
+
+Cryptocurrency values are from www.coinmarketcap.com APIs
