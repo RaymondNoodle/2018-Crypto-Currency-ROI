@@ -1,0 +1,31 @@
+Currently, the only tabs on the sheet are:  Roi, Ticker, and Peercoin
+There is an individual tab for each coin in the ROI tab and you can see them by right-clicking a tab and clicking 'unhide'
+I hid them to free up a lot of space.
+Since Peercoin was the last one I added, I left it on the list to make it easy for a user to add any new coin.
+There are a few ways to add a coin but the following steps are pretty easy.
+If it freezes for about 10 seconds, it's probably because it's updating.
+
+To add a coin to the list:
+
+1. Right click a tab on the bottom and copy it.  Make sure to check the 'create a copy' box and '(move to end)' in the list
+2. Rename the tab you just created to the coin you're adding
+3. If queries and Connections are open on the right, double-click the one with the name of the tab (before you renamed it) you created.  If queries aren't open, go to 'data' at top and click 'queries and connections'
+4. When the querie editor pops up, under 'properties' in the top left, rename the querie to the name of the coin you're adding.
+5. Under 'applied steps', double-click 'source'
+6. In the url it is pointing to, the last string needs to be changed to the correct name.
+example:  if adding litecoin, it should look like this:     https://api.coinmarketcap.com/v1/ticker/litecoin/
+7. Close the querie editor and tell it to keep the changes upon close
+8. Add the coin to your list on the first tab.
+9. Under the 'Today's Value' column, click the box in your new coins row.
+10. Type =
+11. Go to the new tab you created and select the value under the 'price_usd' column
+12. Press enter and it will take you back to the main tab and input that value where you entered =
+13. The value for that coin will now be updated accordingly.
+14. Input the values in the rest of the columns to their appropriate values.
+15. You are done adding a coin.
+
+
+If you want to change the update interval of any of the queries, while the queries are open on the right you can right-click and go to their properties to change it.
+
+
+Produced by Raymond Kopec
